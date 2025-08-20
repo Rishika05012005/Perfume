@@ -1,0 +1,93 @@
+.{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+ .logo-circle img{
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 50%;
+ }
+  .logo-circle{
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      width: 80px;
+      height: 80px;
+      border: 3px solid #B497BD; /* Lavender border */
+      border-radius: 50%;
+      background:black; /* Soft lavender background */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 10px rgba(180, 140, 190, 0.3);
+      cursor: pointer;
+      overflow: hidden; /* Keeps image inside circle */
+      z-index: 1000; 
+  }
+li,h1,ul{
+    display:inline
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: grey;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+input{
+    width: 60%;
+    padding: 15px;
+}
+.searchbar{
+    padding: 50px;
+    text-align: center;
+    background-color:violet;
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+}
+.box:hover{
+    background-color: black;
+    color:violet;
+}
+.products{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.about{
+    text-align: center;
+    margin-top: 20px;
+    padding:20px;
+    background-color: black;
+    color: white;
+
+}
+.about:hover{
+    background-color: black;
+    color:violet
+}
+.contact{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.contact:hover{
+    background-color: black;
+    color: violet;
+}
